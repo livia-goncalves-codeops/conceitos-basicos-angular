@@ -3,13 +3,15 @@ import { Component, signal } from '@angular/core';
 // import { Helloworld } from './helloworld/helloworld'
 // import { Minhapagina } from './minhapagina/minhapagina'
 import { Calculadora } from './calculadora/calculadora';
+import { ListaCompras } from './lista-compras/lista-compras';
 
 @Component({
   imports: [
     // RouterOutlet,
     // Helloworld,
     // Minhapagina,
-    Calculadora
+    Calculadora,
+    ListaCompras
   ],
   selector: 'app-root',
   styleUrl: './app.scss',
